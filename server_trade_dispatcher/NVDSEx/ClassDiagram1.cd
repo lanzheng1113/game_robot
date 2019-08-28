@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access" MembersFormat="NameAndType">
+  <Class Name="CTDatabaseObject" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="4.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="CTDatabaseObject::__unnamed_01fd_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DBM.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Struct Name="CTDatabaseObject::ParamsForGetOrder" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DBM.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Typedef Name="CTDatabaseObject::ParamsForGetConfirm" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DBM.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Typedef>
+      <Class Name="CTDatabaseObject::tbset" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DBM.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BEnBAAIKAAARgBUAMAgIEATEQTwEWgAwMIgCArSAKcg=</HashCode>
+      <FileName>DBM.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IDatabaseObject" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="3.75" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AEBBAAQKAAARIBAAEAAIAARAAQAEQgAkMIgSAJCAAYg=</HashCode>
+      <FileName>IDataBaseObject.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NVDSNetworkObject">
+    <Position X="2" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQAAAEAAAAAAAAAAAAAIAEAEAAEAAABAA=</HashCode>
+      <FileName>testServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="宋体" Size="9" />
+</ClassDiagram>

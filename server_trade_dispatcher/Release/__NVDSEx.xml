@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="gb2312"?>
+<NVDSEx>
+	<ListenPort>4230</ListenPort>
+	<MaxAcceptSession>3000</MaxAcceptSession>
+	<MaxPacketSize>16384</MaxPacketSize>
+	<NumberOfIoThread>4</NumberOfIoThread>
+	<RecvBufferSize>16384</RecvBufferSize>
+	<SendBufferSize>16384</SendBufferSize>
+	<SessionTimeOut>40000</SessionTimeOut>
+	<DbName>TradeRecord.mdb</DbName>
+	<UserTableName>DNFTableA</UserTableName>
+	<EventTable>EventsLogTable</EventTable>
+	<dataBaseName>TradeRecord.mdb</dataBaseName>
+	<dataBaseType>0</dataBaseType>
+	<WindowTitle>game server for nsas</WindowTitle>
+</NVDSEx>

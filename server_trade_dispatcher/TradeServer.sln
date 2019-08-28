@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestClient", "TestClient\TestClient.vcproj", "{586BADF1-E3F7-45F4-A337-7DA5DD990FD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOCPServer", "IOCPServer\IOCPServer.vcproj", "{8C1C2D9A-06C9-4D21-AE29-12A5E462D048}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TradeServer", "NVDSEx\NVDSEx.vcproj", "{0CDEE149-1801-4657-A664-C819B9DEEFD8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C1C2D9A-06C9-4D21-AE29-12A5E462D048} = {8C1C2D9A-06C9-4D21-AE29-12A5E462D048}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testlibcurl", "testlibcurl\testlibcurl.vcproj", "{D46A14BE-AD10-4584-8B41-550ABE7E16C4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MysqlCPlusPlusConnecter", "MysqlCPlusPlusConnecter\MysqlCPlusPlusConnecter.vcproj", "{3FA0CE1A-6CE3-41C3-97FA-11C2EBDADB1F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CrashReport", "CrashReport\CrashReport.vcproj", "{EB55F223-17D1-4537-817D-680F948AB6EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{586BADF1-E3F7-45F4-A337-7DA5DD990FD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{586BADF1-E3F7-45F4-A337-7DA5DD990FD8}.Debug|Win32.Build.0 = Debug|Win32
+		{586BADF1-E3F7-45F4-A337-7DA5DD990FD8}.Release|Win32.ActiveCfg = Release|Win32
+		{586BADF1-E3F7-45F4-A337-7DA5DD990FD8}.Release|Win32.Build.0 = Release|Win32
+		{8C1C2D9A-06C9-4D21-AE29-12A5E462D048}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C1C2D9A-06C9-4D21-AE29-12A5E462D048}.Debug|Win32.Build.0 = Debug|Win32
+		{8C1C2D9A-06C9-4D21-AE29-12A5E462D048}.Release|Win32.ActiveCfg = Release|Win32
+		{8C1C2D9A-06C9-4D21-AE29-12A5E462D048}.Release|Win32.Build.0 = Release|Win32
+		{0CDEE149-1801-4657-A664-C819B9DEEFD8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0CDEE149-1801-4657-A664-C819B9DEEFD8}.Debug|Win32.Build.0 = Debug|Win32
+		{0CDEE149-1801-4657-A664-C819B9DEEFD8}.Release|Win32.ActiveCfg = Release|Win32
+		{0CDEE149-1801-4657-A664-C819B9DEEFD8}.Release|Win32.Build.0 = Release|Win32
+		{D46A14BE-AD10-4584-8B41-550ABE7E16C4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D46A14BE-AD10-4584-8B41-550ABE7E16C4}.Debug|Win32.Build.0 = Debug|Win32
+		{D46A14BE-AD10-4584-8B41-550ABE7E16C4}.Release|Win32.ActiveCfg = Release|Win32
+		{D46A14BE-AD10-4584-8B41-550ABE7E16C4}.Release|Win32.Build.0 = Release|Win32
+		{3FA0CE1A-6CE3-41C3-97FA-11C2EBDADB1F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3FA0CE1A-6CE3-41C3-97FA-11C2EBDADB1F}.Debug|Win32.Build.0 = Debug|Win32
+		{3FA0CE1A-6CE3-41C3-97FA-11C2EBDADB1F}.Release|Win32.ActiveCfg = Release|Win32
+		{3FA0CE1A-6CE3-41C3-97FA-11C2EBDADB1F}.Release|Win32.Build.0 = Release|Win32
+		{EB55F223-17D1-4537-817D-680F948AB6EE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB55F223-17D1-4537-817D-680F948AB6EE}.Debug|Win32.Build.0 = Debug|Win32
+		{EB55F223-17D1-4537-817D-680F948AB6EE}.Release|Win32.ActiveCfg = Release|Win32
+		{EB55F223-17D1-4537-817D-680F948AB6EE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		QtVersion = qt-everywhere-opensource-src-4.6.3
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

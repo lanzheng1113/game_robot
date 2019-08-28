@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>summerInjectClass</class>
+ <widget class="QMainWindow" name="summerInjectClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>475</width>
+    <height>162</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>summerInject</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="summerinject.qrc">
+    <normaloff>:/summerInject/Resources/MainIcon.png</normaloff>:/summerInject/Resources/MainIcon.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>dll</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_dllPath"/>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="checkBox_Trampoline">
+        <property name="text">
+         <string>使用跳板</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_TrampolineProcessName">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>target process</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_targetProcess"/>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>475</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuTool_t">
+    <property name="title">
+     <string>&amp;Tool</string>
+    </property>
+    <addaction name="actionInject"/>
+   </widget>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="action_OpenFile"/>
+   </widget>
+   <widget class="QMenu" name="menu_View">
+    <property name="title">
+     <string>&amp;View</string>
+    </property>
+    <addaction name="actionHide_History"/>
+    <addaction name="action_showHideDllList"/>
+    <addaction name="actionShowHideProcessList"/>
+   </widget>
+   <addaction name="menuTool_t"/>
+   <addaction name="menu_File"/>
+   <addaction name="menu_View"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="cursor">
+    <cursorShape>CrossCursor</cursorShape>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>24</width>
+     <height>24</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionInject"/>
+   <addaction name="action_OpenFile"/>
+   <addaction name="actionHide_History"/>
+   <addaction name="action_showHideDllList"/>
+   <addaction name="actionShowHideProcessList"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionInject">
+   <property name="icon">
+    <iconset resource="summerinject.qrc">
+     <normaloff>:/summerInject/Resources/flashget.png</normaloff>:/summerInject/Resources/flashget.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Inject</string>
+   </property>
+   <property name="toolTip">
+    <string>注入</string>
+   </property>
+   <property name="whatsThis">
+    <string>注入按钮</string>
+   </property>
+  </action>
+  <action name="action_OpenFile">
+   <property name="icon">
+    <iconset resource="summerinject.qrc">
+     <normaloff>:/summerInject/Resources/openfile.png</normaloff>:/summerInject/Resources/openfile.png</iconset>
+   </property>
+   <property name="text">
+    <string>&amp;Open</string>
+   </property>
+   <property name="toolTip">
+    <string>打开dll文件</string>
+   </property>
+   <property name="whatsThis">
+    <string>打开dll文件</string>
+   </property>
+  </action>
+  <action name="actionHide_History">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="summerinject.qrc">
+     <normaloff>:/summerInject/Resources/Impress.png</normaloff>:/summerInject/Resources/Impress.png</iconset>
+   </property>
+   <property name="text">
+    <string>hide&amp;History</string>
+   </property>
+   <property name="toolTip">
+    <string>显示/隐藏DLL历史列表</string>
+   </property>
+  </action>
+  <action name="action_showHideDllList">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="summerinject.qrc">
+     <normaloff>:/summerInject/Resources/showhideDllList.png</normaloff>:/summerInject/Resources/showhideDllList.png</iconset>
+   </property>
+   <property name="text">
+    <string>showHideDllList</string>
+   </property>
+   <property name="toolTip">
+    <string>显示/隐藏进程内DLL列表</string>
+   </property>
+  </action>
+  <action name="actionShowHideProcessList">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="summerinject.qrc">
+     <normaloff>:/summerInject/Resources/uTorrent.png</normaloff>:/summerInject/Resources/uTorrent.png</iconset>
+   </property>
+   <property name="text">
+    <string>showHideProcessList</string>
+   </property>
+   <property name="toolTip">
+    <string>显示/隐藏进程列表</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="summerinject.qrc"/>
+ </resources>
+ <connections/>
+</ui>

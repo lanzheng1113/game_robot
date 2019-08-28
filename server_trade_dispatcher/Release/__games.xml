@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="gb2312"?>
+<game_support>
+	<dispatcher>
+		<game_type_id>10001</game_type_id>
+		<game_type_desc>QQ飞车</game_type_desc>
+		<acc_get_stage>顺序取号</acc_get_stage>
+		<acc_list_dir>QQ飞车账号目录</acc_list_dir>
+		<enable_imm_acc>yes</enable_imm_acc>
+	</dispatcher>
+	<dispatcher>
+		<game_type_id>10002</game_type_id>
+		<game_type_desc>QQ炫舞</game_type_desc>
+		<acc_get_stage>后发先至</acc_get_stage>
+		<acc_list_dir>QQ炫舞账号目录</acc_list_dir>
+		<enable_imm_acc>no</enable_imm_acc>
+	</dispatcher>
+	<dispatcher>
+		<game_type_id>10003</game_type_id>
+		<game_type_desc>盛大飞车</game_type_desc>
+		<acc_get_stage>按上次交易时间</acc_get_stage>
+		<acc_list_dir>盛大飞车账号目录</acc_list_dir>
+		<enable_imm_acc>no</enable_imm_acc>
+	</dispatcher>
+</game_support>

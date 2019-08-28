@@ -1,0 +1,46 @@
+<?xml version="2.0" encoding="gb2312" ?>
+<!-- 小哨兵配置文件 -->
+<sentinel>
+    <process>
+        <id>1</id>
+        <task_name>1.exe</task_name>
+        <ExeFullPath>E:\work\NVDSAssist\Release\雨露-生灵\NVDSEx.exe</ExeFullPath>
+        <DelayTime>15</DelayTime>
+        <WindowName>DNF服务器-生灵-雨落</WindowName>
+    </process>
+    <process>
+        <id>2</id>
+        <task_name>2.exe</task_name>
+        <ExeFullPath>E:\work\NVDSAssist\Release\DNFAragon\NVDSEx.exe</ExeFullPath>
+        <DelayTime>15</DelayTime>
+        <WindowName>DNF服务器-阿拉贡</WindowName>
+    </process>
+    <process>
+        <id>3</id>
+        <task_name>N/A</task_name>
+        <ExeFullPath>N/A</ExeFullPath>
+        <DelayTime>15</DelayTime>
+        <WindowName>N/A</WindowName>
+    </process>
+    <process>
+        <id>4</id>
+        <task_name>N/A</task_name>
+        <ExeFullPath>N/A</ExeFullPath>
+        <DelayTime>15</DelayTime>
+        <WindowName>N/A</WindowName>
+    </process>
+    <process>
+        <id>5</id>
+        <task_name>N/A</task_name>
+        <ExeFullPath>N/A</ExeFullPath>
+        <DelayTime>15</DelayTime>
+        <WindowName>N/A</WindowName>
+    </process>
+    <process>
+        <id>6</id>
+        <task_name>N/A</task_name>
+        <ExeFullPath>N/A</ExeFullPath>
+        <DelayTime>15</DelayTime>
+        <WindowName>N/A</WindowName>
+    </process>
+</sentinel>

@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="summerInject">
+    <file>Resources/uTorrent.png</file>
+    <file>Resources/showhideDllList.png</file>
+    <file>Resources/Impress.png</file>
+    <file>Resources/Impress.png</file>
+    <file>Resources/MainIcon.png</file>
+    <file>Resources/openfile.png</file>
+    <file>Resources/flashget.png</file>
+  </qresource>
+</RCC>

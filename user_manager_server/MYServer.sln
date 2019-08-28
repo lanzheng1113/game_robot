@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MuSrv", "MuSrv\MuSrv.vcproj", "{3A655CBB-CBCF-4C4D-800F-F92B6EF3C2D5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8C1C2D9A-06C9-4D21-AE29-12A5E462D048} = {8C1C2D9A-06C9-4D21-AE29-12A5E462D048}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IOCPServer", "IOCPServer\IOCPServer.vcproj", "{8C1C2D9A-06C9-4D21-AE29-12A5E462D048}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testc", "testc\testc.vcproj", "{9711A70B-BDFC-4D34-B39E-B5FEEFDAC0A6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoteAdmin", "RemoteAdmin\RemoteAdmin.vcproj", "{B20A64FA-CFC1-4706-9645-EEBFC8AE5C2D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "recordreader", "recordreader\recordreader.vcproj", "{ED836600-278A-4ACB-AC74-35D30A364539}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemoteAdminNotAuto", "RemoteAdminNotAuto\RemoteAdminNotAuto.vcproj", "{07BACC62-E8F1-4E76-A1D9-CADA5660C17A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "unbind", "unbind\unbind.vcproj", "{785AF020-1D12-4A8D-9E6D-11B40B24E655}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LogReader", "LogReader\LogReader.vcproj", "{8D166FE1-4A1C-41BC-A414-0BF03647499F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DbManager", "DbManager\DbManager.vcproj", "{E900BACD-A0AF-4523-AF1A-0F73E6545769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A655CBB-CBCF-4C4D-800F-F92B6EF3C2D5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A655CBB-CBCF-4C4D-800F-F92B6EF3C2D5}.Debug|Win32.Build.0 = Debug|Win32
+		{3A655CBB-CBCF-4C4D-800F-F92B6EF3C2D5}.Release|Win32.ActiveCfg = Release|Win32
+		{3A655CBB-CBCF-4C4D-800F-F92B6EF3C2D5}.Release|Win32.Build.0 = Release|Win32
+		{8C1C2D9A-06C9-4D21-AE29-12A5E462D048}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8C1C2D9A-06C9-4D21-AE29-12A5E462D048}.Debug|Win32.Build.0 = Debug|Win32
+		{8C1C2D9A-06C9-4D21-AE29-12A5E462D048}.Release|Win32.ActiveCfg = Release|Win32
+		{8C1C2D9A-06C9-4D21-AE29-12A5E462D048}.Release|Win32.Build.0 = Release|Win32
+		{9711A70B-BDFC-4D34-B39E-B5FEEFDAC0A6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9711A70B-BDFC-4D34-B39E-B5FEEFDAC0A6}.Debug|Win32.Build.0 = Debug|Win32
+		{9711A70B-BDFC-4D34-B39E-B5FEEFDAC0A6}.Release|Win32.ActiveCfg = Release|Win32
+		{9711A70B-BDFC-4D34-B39E-B5FEEFDAC0A6}.Release|Win32.Build.0 = Release|Win32
+		{B20A64FA-CFC1-4706-9645-EEBFC8AE5C2D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B20A64FA-CFC1-4706-9645-EEBFC8AE5C2D}.Debug|Win32.Build.0 = Debug|Win32
+		{B20A64FA-CFC1-4706-9645-EEBFC8AE5C2D}.Release|Win32.ActiveCfg = Release|Win32
+		{B20A64FA-CFC1-4706-9645-EEBFC8AE5C2D}.Release|Win32.Build.0 = Release|Win32
+		{ED836600-278A-4ACB-AC74-35D30A364539}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED836600-278A-4ACB-AC74-35D30A364539}.Debug|Win32.Build.0 = Debug|Win32
+		{ED836600-278A-4ACB-AC74-35D30A364539}.Release|Win32.ActiveCfg = Release|Win32
+		{ED836600-278A-4ACB-AC74-35D30A364539}.Release|Win32.Build.0 = Release|Win32
+		{07BACC62-E8F1-4E76-A1D9-CADA5660C17A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{07BACC62-E8F1-4E76-A1D9-CADA5660C17A}.Debug|Win32.Build.0 = Debug|Win32
+		{07BACC62-E8F1-4E76-A1D9-CADA5660C17A}.Release|Win32.ActiveCfg = Release|Win32
+		{07BACC62-E8F1-4E76-A1D9-CADA5660C17A}.Release|Win32.Build.0 = Release|Win32
+		{785AF020-1D12-4A8D-9E6D-11B40B24E655}.Debug|Win32.ActiveCfg = Debug|Win32
+		{785AF020-1D12-4A8D-9E6D-11B40B24E655}.Debug|Win32.Build.0 = Debug|Win32
+		{785AF020-1D12-4A8D-9E6D-11B40B24E655}.Release|Win32.ActiveCfg = Release|Win32
+		{785AF020-1D12-4A8D-9E6D-11B40B24E655}.Release|Win32.Build.0 = Release|Win32
+		{8D166FE1-4A1C-41BC-A414-0BF03647499F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D166FE1-4A1C-41BC-A414-0BF03647499F}.Debug|Win32.Build.0 = Debug|Win32
+		{8D166FE1-4A1C-41BC-A414-0BF03647499F}.Release|Win32.ActiveCfg = Release|Win32
+		{8D166FE1-4A1C-41BC-A414-0BF03647499F}.Release|Win32.Build.0 = Release|Win32
+		{E900BACD-A0AF-4523-AF1A-0F73E6545769}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E900BACD-A0AF-4523-AF1A-0F73E6545769}.Debug|Win32.Build.0 = Debug|Win32
+		{E900BACD-A0AF-4523-AF1A-0F73E6545769}.Release|Win32.ActiveCfg = Release|Win32
+		{E900BACD-A0AF-4523-AF1A-0F73E6545769}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
